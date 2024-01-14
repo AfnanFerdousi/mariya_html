@@ -14,3 +14,42 @@ h1{
     margin-top: 100px;
     margin-bottom: 100px;
 }
+
+.box{
+    background-color: #f2666f;
+    padding: 5px;
+    border: 5px solid #333;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+
+    margin: 50px;
+}
+/* grid/ flex */
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 50px;
+}
+
+.card{
+    width: 400px;
+    background-color: #e9b8b8;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card-img{
+    width: 400px;
+    border: 3px dashed #ff5000;
+    border-radius: 10px;
+}
+
+.card h2{
+    padding: 20px 0px ;
+}
+/* margin: if there are two values, the first parameter means Y Axis and the second parameter means X Axis */
+
+/* margin: if there are four value it will be top, right, bottom, left */
